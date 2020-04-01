@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+class Calculator{
+  public static void main(String args[]) {
+	  
+	  Scanner Ehab	= new Scanner(System.in);
+	  double Fnum, Snum, Answer;
+	 
+	  System.out.println("(Sum of two numbers)\n");
+	  System.out.println("Enter First Number: ");
+	  Fnum = Ehab.nextDouble();
+	  System.out.println("Enter Second Number: ");
+	  Snum = Ehab.nextDouble();
+	  Answer = Fnum + Snum;
+	  System.out.print("Sum of Numbers = ");
+	  System.out.println(Answer);
+	  System.out.println();
+	  
+	  System.out.println("(Subtract of two numbers)\n");
+	  System.out.println("Enter First Number: ");
+	  Fnum = Ehab.nextDouble();
+	  System.out.println("Enter Second Number: ");
+	  Snum = Ehab.nextDouble();
+	  Answer = Fnum - Snum;
+	  System.out.print("Subtract of Numbers = ");
+	  System.out.println(Answer);
+	  System.out.println();
+
+	  System.out.println("(Multiply of two numbers)\n");
+	  System.out.println("Enter First Number: ");
+	  Fnum = Ehab.nextDouble();
+	  System.out.println("Enter Second Number: ");
+	  Snum = Ehab.nextDouble();
+	  Answer = Fnum * Snum;
+	  System.out.print("Multiplication of Numbers = ");
+	  System.out.println(Answer);
+	  System.out.println();
+	  
+	  System.out.println("(Dividing of two numbers)\n");
+	  System.out.println("Enter First Number: ");
+	  Fnum = Ehab.nextDouble();
+	  System.out.println("Enter Second Number: ");
+	  Snum = Ehab.nextDouble();
+	  Answer = Fnum / Snum;
+	  System.out.print("Dividing of Numbers = ");
+	  System.out.println(Answer);
+  }
+   }  
